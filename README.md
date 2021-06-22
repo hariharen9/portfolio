@@ -18,9 +18,9 @@ This project was built using React.JS.
 
 ## Features
 
-**📖 Multi-Page Layout**
+**📖 Multi-Page Layout with Particles effect**
 
-**🎨 Styled with React-Bootstrap and Css with easy to customize colors**
+**🎨 Styled with React, Css, Tachyon, React-Icons etc...**
 
 **📱 Fully Responsive**
 
