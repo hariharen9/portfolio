@@ -18,21 +18,21 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath="https://play-lh.googleusercontent.com/Gas7uD7_5AOu53NBkW0RaCbS2_4TIFek1olb2HGe_2pVg-H5EzuWFpRCbW6kwwAZNaI=s180-rw"
-              isBlog={false}
-              title="CASHTRACK"
-              description="Are you someone who suffers from impulse buying? Are you planning to increase your savings to buy a new phone or go on a nice vacation, but always lose track of how you spend your money? This app is here to help you achieve your next big goal."
-              link="https://play.google.com/store/apps/details?id=com.hariharen.cashtrack"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
               imgPath="https://play-lh.googleusercontent.com/kLxvPxrqHaFL9lljlV0mbzI3-QqK6F2VHi11LoYPJR7zvC0K3VJ7605b61xx2kWzbog=s180-rw"
               isBlog={false}
               title="Angst"
               description="Angst is your guide to reduce your mind-wandering and to feel less anxious. Our handpicked collection of ASMRs, Podcasts, Reading, Exercises, Quizzes, and Videos would help you feel less anxious and would definitely accompany you the next time when you have an anxiety attack."
               link="https://play.google.com/store/apps/details?id=com.trouvaille.angst"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath="https://play-lh.googleusercontent.com/Gas7uD7_5AOu53NBkW0RaCbS2_4TIFek1olb2HGe_2pVg-H5EzuWFpRCbW6kwwAZNaI=s180-rw"
+              isBlog={false}
+              title="CASHTRACK"
+              description="Are you someone who suffers from impulse buying? Are you planning to increase your savings to buy a new phone or go on a nice vacation, but always lose track of how you spend your money? This app is here to help you achieve your next big goal."
+              link="https://play.google.com/store/apps/details?id=com.hariharen.cashtrack"
             />
           </Col>
 
@@ -51,7 +51,7 @@ function Projects() {
               imgPath="https://www.asmag.com/upload/pic/case/35333.378375.jpg"
               isBlog={false}
               title="BookYourLot"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
+              description="Hassel free parking spot booking. In Just a click of a button."
               link="https://github.com/hariharen9/bookyourlot"
             />
           </Col>
