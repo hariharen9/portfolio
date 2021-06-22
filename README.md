@@ -5,7 +5,11 @@
 <h6 align="center">Demo ☝</h6>
 <div align="center">
   <img alt="Demo" src="./Images/Home.png" />
+  
+</div>
+<div align="center">
   <img alt="Demo" src="./Images/about.png" />
+  
 </div>
 
 <br/>
