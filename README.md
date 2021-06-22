@@ -7,10 +7,6 @@
   <img alt="Demo" src="./Images/Home.png" />
   
 </div>
-<div align="center">
-  <img alt="Demo2" src="./Images/About.png" />
-  
-</div>
 
 <br/>
 
