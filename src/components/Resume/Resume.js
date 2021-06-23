@@ -4,6 +4,7 @@ import Particle from "../Particle";
 import Resumecontent from "./ResumeContent";
 import pdf from "../../Assets/Hariharen-Resume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
+import hello from "../../Assets/hello.png"
 
 function Resume() {
   // const [cgpa, upadteCgpa] = useState(0);
@@ -15,14 +16,28 @@ function Resume() {
       <Particle />
       <Container>
         <Row style={{ justifyContent: "center", position: "relative" }}>
+        
           <Button
             variant="primary"
             href="https://drive.google.com/file/d/1emagYjcTNNaGeL23jY2i1icrTJSoKxGr/view?usp=sharing"
             target="_blank"
           >
             <AiOutlineDownload />
-            &nbsp;Download CV
+            &nbsp;Download CV&nbsp;
           </Button>
+          
+        
+          
+          
+        </Row>
+        &nbsp;
+        
+        <Row style={{ justifyContent: "center", position: "relative" }}>
+
+        
+              <Col md={5} style={{ paddingBottom: 20 }}>
+              <img src={hello}  height="300px" width="300px" alt="home pic" className="img-fluid" />
+            </Col>
         </Row>
         <Row className="resume">
           <Col md={6} className="resume-left">

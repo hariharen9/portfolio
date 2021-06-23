@@ -7,7 +7,7 @@ function Particle() {
       params={{
         particles: {
           number: {
-            value: 500,
+            value: 1000,
             density: {
               enable: true,
               value_area: 1500,
@@ -15,11 +15,11 @@ function Particle() {
           },
           line_linked: {
             enable: false,
-            opacity: 0.1,
+            opacity: 0.2,
           },
           move: {
             direction: "bottom",
-            speed: 0.5,
+            speed: 0.35,
           },
           size: {
             value: 1,

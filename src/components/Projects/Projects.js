@@ -16,7 +16,7 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+          <Col md={4} className="project-card">npm
             <ProjectCard
               imgPath="https://play-lh.googleusercontent.com/kLxvPxrqHaFL9lljlV0mbzI3-QqK6F2VHi11LoYPJR7zvC0K3VJ7605b61xx2kWzbog=s180-rw"
               isBlog={false}
