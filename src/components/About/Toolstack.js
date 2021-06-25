@@ -7,9 +7,11 @@ import {
   SiHeroku,
   SiNetlify,
   SiMysql,
+  SiPostgresql,
   SiUnity,
   SiBlender,
   SiAdobepremiere,
+  SiAdobeaftereffects,
   SiFigma,
   SiAndroidstudio,
 } from "react-icons/si";
@@ -21,6 +23,7 @@ import {
   DiPhotoshop,
   DiIllustrator,
   DiTerminal,
+  DiMongodb,
 } from "react-icons/di";
 
 function Toolstack() {
@@ -53,6 +56,9 @@ function Toolstack() {
         <SiAdobepremiere />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiAdobeaftereffects />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <DiTerminal />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
@@ -71,7 +77,13 @@ function Toolstack() {
         <SiNetlify />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <DiMongodb />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <SiMysql />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPostgresql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <AiFillGithub />

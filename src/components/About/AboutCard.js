@@ -51,7 +51,7 @@ function AboutCard() {
           </p>
           <br />
           <footer className="blockquote-footer">
-            -Albert Einstein, Scientist
+            Albert Einstein, Scientist
           </footer>
         </blockquote>
       </Card.Body>
