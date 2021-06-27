@@ -18,6 +18,17 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath="https://developers.google.com/ml-kit/vision/face-detection/images/face_detection2x.png"
+              isBlog={false}
+              title="MagicBrain - FaceDetection AI"
+              description="    
+              
+               This is a Full-Stack Web Application is built using REACTJS as frontend, NODEJS as server / Backend & POSTGRESQL for the database. It uses the CLARIFAI API to detect faces which uses AI and machine learning to detect faces in the given image. Styled using Bootstrap and Tachyons. It's a complete web app with all the components hosted separately and is currently LIVE. Backend is deployed to Heroku and frontend is deployed on Netlify"
+              link="https://magicbrain.netlify.app"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath="https://play-lh.googleusercontent.com/kLxvPxrqHaFL9lljlV0mbzI3-QqK6F2VHi11LoYPJR7zvC0K3VJ7605b61xx2kWzbog=s180-rw"
               isBlog={false}
               title="Angst"
