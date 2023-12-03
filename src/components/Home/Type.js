@@ -6,10 +6,10 @@ function Type() {
     <Typewriter
       options={{
         strings: [
-          "Web & App Developer",
-          "Flutter Developer",
-          "Full Stack Developer",
-          "Tech Enthusiast!",
+          'Cloud Application Developer',
+          'Web & App Developer',
+          'Full Stack Developer',
+          'A Tech Enthusiast!',
         ],
         autoStart: true,
         loop: true,
@@ -17,7 +17,7 @@ function Type() {
         typeSpeed: 10,
       }}
     />
-  );
+  )
 }
 
 export default Type;

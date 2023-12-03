@@ -1,62 +1,42 @@
 import React from "react";
-import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
+import Card from 'react-bootstrap/Card'
 
 function AboutCard() {
   return (
-    <Card className="quote-card-view">
+    <Card className='quote-card-view'>
       <Card.Body>
-        <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Hariharen </span>
-            from <span className="purple"> Coimbatore (TN), India.</span>
-            <br />I am a Junior pursuing Computer Science Engineering at
-            Coimbatore Institute of Technology.
-            <br />
-            <br />
-            Apart from coding, some other activities that I love to do!
-          </p>
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> Playing Video Games
-            </li>
-
-            <li className="about-activity">
-              <ImPointRight /> Movies & Series
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Travelling
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Video Making
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Editing
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Youtube Streaming
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Writting Tech Blogs
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> And many more...
-            </li>
-          </ul>
+        <div className='about-text'>
+          Hello there! I'm Hariharen, a{' '}
+          <b className='purple'> Computer Science Engineering </b>graduate from
+          CIT, Coimbatore. I am working in <b className='purple'>TCS</b> as a
+          Systems Engineer, currently delving deep into the cloud realm within
+          <b className='purple'> IBM Cloud.</b>
           <br />
-
-          <p style={{ marginBlockEnd: 0, color: "rgb(155 126 172)" }}>
-            "It has become appallingly obvious that our technology has exceeded
-            our humanity."{" "}
-          </p>
           <br />
-          <footer className="blockquote-footer">
-            Albert Einstein, Scientist
-          </footer>
-        </blockquote>
+          My journey began at IBM, where I initially contributed as a contract
+          employee in the VPC division. Now, I am working in{' '}
+          <b className='purple'>Network overlay</b>, shaping cloud
+          infrastructure to align with diverse user requirements while
+          optimizing system software for enhanced performance and security.
+          ensuring system compliance and high availability, essential for
+          scaling applications effectively.
+          <br />
+          <br />
+          I'm also an avid <b className='purple'>Tech enthusiast</b> with a
+          flair for scripting to automate tasks. I have proficiency in{' '}
+          <b className='purple'>JavaScript, Python and Go</b>. I also have
+          worked in React, Flutter and have a passion for crafting compelling
+          websites and mobile applications. I've even ventured into app
+          development, successfully launching{' '}
+          <b className='purple'>two apps on the Play Store</b>, and previously
+          founded a startup centered on web development.
+          <b className='purple'>Let's connect</b> and exchange insights within
+          this exciting tech-driven sphere!
+          <br />
+        </div>
       </Card.Body>
     </Card>
-  );
+  )
 }
 
 export default AboutCard;
