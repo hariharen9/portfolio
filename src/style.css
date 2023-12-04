@@ -246,7 +246,7 @@ html {
 .home-section {
   position: relative;
   /* background-image: var(--image-gradient), url(./Assets/home-bg.jpg); */
-  background-image:  url(./Assets/home-bg2.jpg);
+  background-image: var(--image-gradient), url(./Assets/home-bg2.jpg);
   background-position: center center;
   background-size: cover; /* This property ensures the image covers the entire background */
   background-repeat: no-repeat;
@@ -256,7 +256,7 @@ html {
 .home-section-2 {
   position: relative;
   z-index: -1;
-  background-image: url(./Assets/home-bg2-90.jpg);
+  background-image: var(--image-gradient), url(./Assets/home-bg2-90.jpg);
   background-position: center center; /* Set positions for each image */
   background-size: cover, cover; /* Set sizes for each image */
   background-repeat: no-repeat;
@@ -264,7 +264,31 @@ html {
   padding-top: 30px !important;
 }
 
+/* Image tilt */
+.img-tilt {
+  /* Set initial transform properties */
+  transform-origin: center center;
+  transform: perspective(800px) rotate(0deg);
+  transition: transform 2s ease-in-out; /* Duration for the tilt animation */
 
+  /* Animation */
+  animation-name: tiltLoop;
+  animation-duration: 4s; /* Total time for one loop */
+  animation-iteration-count: infinite; /* Loop infinitely */
+}
+
+/* Keyframes for tilt animation */
+@keyframes tiltLoop {
+  0%, 100% {
+    transform: perspective(800px) rotate(-10deg); /* Tilt left and up */
+  }
+  25% {
+    transform: perspective(800px) rotate(10deg); /* Tilt right and down */
+  }
+  75% {
+    transform: perspective(800px) rotate(10deg); /* Tilt right and down */
+  }
+}
 
 
 .home-content {
@@ -453,7 +477,7 @@ html {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-image: url(./Assets/home-bg2-flip.jpg);
+  background-image:var(--image-gradient), url(./Assets/home-bg2-flip.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed; /* Optional: Fixes the background while scrolling */
@@ -556,7 +580,7 @@ html {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-image: url(./Assets/home-bg2.jpg);
+  background-image: var(--image-gradient),url(./Assets/home-bg2.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed; /* Optional: Fixes the background while scrolling */
@@ -651,6 +675,18 @@ html {
   font-size: x-large;
   text-align: justify;
 }
+/* Media query for smaller screens (phones) */
+@media only screen and (max-width: 600px) {
+  .about-text {
+    font-size: medium; /* Set a smaller font size for phones */
+  }
+}
+/* Media query for smaller screens (phones) */
+@media only screen and (max-width: 900px) {
+  .about-text {
+    font-size: large; /* Set a smaller font size for phones */
+  }
+}
 @media (max-width: 767px) {
   .about-img {
     padding-top: 0 !important;
@@ -663,7 +699,7 @@ html {
   position: relative !important;
   padding-top: 110px !important;
   padding-bottom: 30px !important;
-  background-image: url(./Assets/home-bg2-90.jpg);
+  background-image: var(--image-gradient), url(./Assets/home-bg2-90.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed; /* Optional: Fixes the background while scrolling */
@@ -716,7 +752,7 @@ html {
 
 .resume .resume-item .resume-title {
   line-height: 18px;
-  font-size: 0.9em;
+  font-size: 1.3em;
   background: #5234795d;
   padding: 8px 15px;
   display: inline-block;

@@ -41,10 +41,9 @@ function Home() {
             </Col>
           </Row>
         </Container>
-      </Container>
-      <Container fluid className='home-section-2' id='home'>
         <Home2 />
       </Container>
+      
     </section>
   )
 }

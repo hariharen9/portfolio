@@ -1,8 +1,12 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
-import Tilt from "react-parallax-tilt";
-
+import {
+  AiFillGithub,
+  AiOutlineTwitter,
+  AiFillInstagram,
+} from "react-icons/ai";
+import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
   return (
@@ -52,12 +56,13 @@ function Home2() {
             </p>
           </Col>
           <Col md={4} className='myAvtar'>
-            <Tilt>
-              <img src={myImg} className='img-fluid' alt='avatar' />
-            </Tilt>
+              
+    <img src={myImg} className='img-tilt' alt='avatar' />
+
+  
           </Col>
         </Row>
-        {/* <Row>
+        <Row>
           <Col md={12} className='home-about-social'>
             <p>
               Feel free to <span className='purple'>connect </span>with me
@@ -105,7 +110,7 @@ function Home2() {
               </li>
             </ul>
           </Col>
-        </Row> */}
+        </Row>
       </Container>
     </Container>
   )

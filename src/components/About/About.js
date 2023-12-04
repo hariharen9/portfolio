@@ -26,7 +26,7 @@ function About() {
           </Col>
           <Col
             md={5}
-            style={{ paddingTop: '120px', paddingBottom: '50px' }}
+            style={{ paddingTop: '30px', paddingBottom: '50px' }}
             className='about-img'
           >
             <img src={laptopImg} alt='about' className='img-fluid' />
@@ -53,8 +53,8 @@ function About() {
         <Row className='resume'>
           <Col md={6} className='resume-left'>
             <Resumecontent
-              title='Intern [Naren Pvt.Ltd]'
-              date='April 2019 - June 2019'
+              title='IBM - Cloud Advocate V2'
+              date='November 2023'
               content={[
                 "Assembled various components related to LDR and other Sensors. Learnt to operate adn utilize a sensor for it's various purposes",
               ]}

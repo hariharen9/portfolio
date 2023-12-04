@@ -30,7 +30,7 @@ function AboutCard() {
           development, successfully launching{' '}
           <b className='purple'>two apps on the Play Store</b>, and previously
           founded a startup centered on web development.
-          <b className='purple'>Let's connect</b> and exchange insights within
+          <b className='purple'> Let's connect</b> and exchange insights within
           this exciting tech-driven sphere!
           <br />
         </div>
