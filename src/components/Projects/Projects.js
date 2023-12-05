@@ -11,7 +11,7 @@ function Projects() {
           My Recent <strong className='purple'>Works </strong>
         </h1>
         <p style={{ color: 'white' }}>
-          Here are a few projects I've worked on recently.
+          Here are a few  <b className='purple'>PERSONAL </b> projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: 'center', paddingBottom: '10px' }}>
           <Col md={4} className='project-card'>
@@ -21,21 +21,11 @@ function Projects() {
               title='Kubernetes Resource Generator'
               description="    
               
-               This is a Full-Stack Web Application is built using REACTJS as frontend, NODEJS as server / Backend & POSTGRESQL for the database. It uses the CLARIFAI API to detect faces which uses AI and machine learning to detect faces in the given image. Styled using Bootstrap and Tachyons. It's a complete web app with all the components hosted separately and is currently LIVE. Backend is deployed to Heroku and frontend is deployed on Netlify"
-              link='https://magicbrain.netlify.app'
+               This is a PYTHON script which will create Kubernetes Network resources like Router, Networks, Security groups etc. This tool can be used to automate the deployment of resources and integrate them with the K8S containers. This script also has many features like Deleting the applied resources, Custom Endpoint/Network count, Save the YAML file, optional LoadBalancers, Stop at a particular resource and many more which will help in development and troubleshooting"
+              link='https://github.com/hariharen9/k8s_resource_creator'
             />
           </Col>
-          <Col md={4} className='project-card'>
-            <ProjectCard
-              imgPath='https://developers.google.com/ml-kit/vision/face-detection/images/face_detection2x.png'
-              isBlog={false}
-              title='MagicBrain - FaceDetection AI'
-              description="    
-              
-               This is a Full-Stack Web Application is built using REACTJS as frontend, NODEJS as server / Backend & POSTGRESQL for the database. It uses the CLARIFAI API to detect faces which uses AI and machine learning to detect faces in the given image. Styled using Bootstrap and Tachyons. It's a complete web app with all the components hosted separately and is currently LIVE. Backend is deployed to Heroku and frontend is deployed on Netlify"
-              link='https://magicbrain.netlify.app'
-            />
-          </Col>
+          
           <Col md={4} className='project-card'>
             <ProjectCard
               imgPath='https://play-lh.googleusercontent.com/kLxvPxrqHaFL9lljlV0mbzI3-QqK6F2VHi11LoYPJR7zvC0K3VJ7605b61xx2kWzbog=s180-rw'
@@ -55,7 +45,17 @@ function Projects() {
               link='https://play.google.com/store/apps/details?id=com.hariharen.cashtrack'
             />
           </Col>
-
+          <Col md={4} className='project-card'>
+            <ProjectCard
+              imgPath='https://developers.google.com/ml-kit/vision/face-detection/images/face_detection2x.png'
+              isBlog={false}
+              title='MagicBrain - FaceDetection AI'
+              description="    
+              
+               This is a Full-Stack Web Application is built using REACTJS as frontend, NODEJS as server / Backend & POSTGRESQL for the database. It uses the CLARIFAI API to detect faces which uses AI and machine learning to detect faces in the given image. Styled using Bootstrap and Tachyons. It's a complete web app with all the components hosted separately and is currently LIVE. Backend is deployed to Heroku and frontend is deployed on Netlify"
+              link='https://magicbrain.netlify.app'
+            />
+          </Col>
           <Col md={4} className='project-card'>
             <ProjectCard
               imgPath='https://sc04.alicdn.com/kf/U3db117176e5048109d53049785397510I.png'
@@ -71,7 +71,7 @@ function Projects() {
               imgPath='https://www.asmag.com/upload/pic/case/35333.378375.jpg'
               isBlog={false}
               title='BookYourLot'
-              description='Hassel free parking spot booking. In Just a click of a button.'
+              description='Hassel free parking spot booking. In Just a click of a button. Book your parking lot, Park and go whenever you want. Payment feature is coming soon.'
               link='https://github.com/hariharen9/bookyourlot'
             />
           </Col>

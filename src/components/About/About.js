@@ -4,8 +4,7 @@ import Techstack from './Techstack'
 import Aboutcard from './AboutCard'
 import laptopImg from '../../Assets/about.png'
 import Toolstack from './Toolstack'
-import Resumecontent from './ResumeContent'
-
+import AboutContent from "./AboutContent";
 function About() {
   return (
     <Container fluid className='about-section'>
@@ -49,59 +48,72 @@ function About() {
         </h1>
         <br />
         <br />
-        <br />
         <Row className='resume'>
           <Col md={6} className='resume-left'>
-            <Resumecontent
+            <AboutContent
               title='IBM - Cloud Advocate V2'
               date='November 2023'
-              content={[
-                "Assembled various components related to LDR and other Sensors. Learnt to operate adn utilize a sensor for it's various purposes",
-              ]}
+              content={["IBM Cloud"]}
             />
-            <Resumecontent
-              title='Intern on ML & IoT [NITK-STEP]'
-              date='March 2021 - April 2021'
-              content={[
-                'Introduction to Machine Learning and How to apply ML concepts with the help of IoT Devices to improve our day to day life',
-              ]}
+            <AboutContent
+              title='Kubernetes for Beginners'
+              date='July 2023'
+              content={["IBM Cloud"]}
+
             />
-            <Resumecontent
-              title='Hackthon 2020'
-              content={[
-                'Participated in the National level Hackthon SIH2020 with a project called BookYourDoc built with flutter',
-              ]}
+            <AboutContent
+              title='Cloud Computing for Beginners - IaaS'
+              date="June 2023"
+              content={["IBM Cloud"]}
+
             />
-            <Resumecontent
-              title='Cryptera 2k21 GAMING EVENT'
-              content={[
-                'Organzed a International Gaming event on behalf of annual college cultural event Cryptera',
-              ]}
+            <AboutContent
+              title='AWS Fundamentals'
+              date="March 2021"
+              content={["Amazon"]}
+
             />
+            <AboutContent
+              title='Self Taught Programmer'
+              date="September 2020"
+              content={["Udemy"]}
+
+            />
+           
           </Col>
           <Col md={6} className='resume-right'>
-            <Resumecontent
-              title='Computer Science Engineering [CIT , Coimbatore] '
-              content={['Percent']}
-            />
-            <Resumecontent
-              title='Diploma ECE [PSG Polytechnic College, Coimbatore]'
-              date='2016 - 2019'
-              content={['Precentage: 95%']}
-            />
-            <Resumecontent
-              title='10TH BOARD [RJ Matriculation Hr.Sec School, Coimbatore] '
-              date='2015'
-              content={['Precentage: 97%']}
-            />
-            <Resumecontent
-              title='GG'
+          <AboutContent
+              title='Python for Everybody (SPECIALIZATION)'
+              date="August 2020"
               content={[
-                `Current rank in HackerRank  65480`,
-                'Top Performer in Code-Break 1.0',
-                'Participant in SIH2020',
+                "University of Michigan"
               ]}
             />
+          <AboutContent
+              title='AI for Everyone'
+              date="August 2020"
+              content={[
+                "Deeplearning.ai"
+              ]}
+            />
+             <AboutContent
+            title='Javascript Bootcamp'
+            date="June 2020"
+            content={["Codecademy"]}
+          /> 
+           <AboutContent
+              title='Blockchain Basics'
+              date="August 2020"
+              content={["University of Buffallo"]}
+
+            />
+            <AboutContent
+              title='Flutter Bootcamp'
+              date="August 2020"
+              content={["Udemy"]}
+
+            />
+            
           </Col>
         </Row>
       </Container>

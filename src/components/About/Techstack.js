@@ -1,7 +1,7 @@
 import React from 'react'
 import { Col, Row } from 'react-bootstrap'
 import { BsFillBootstrapFill } from 'react-icons/bs'
-import { SiFlutter, SiKubernetes, SiJira, SiTerraform } from 'react-icons/si'
+import { SiFlutter, SiKubernetes, SiTerraform, SiGo, SiDocker,SiMysql, SiPostgresql } from 'react-icons/si'
 import {
   DiJavascript1,
   DiReact,
@@ -11,35 +11,34 @@ import {
   DiDart,
   DiHtml5,
   DiCss3,
-  DiDocker,
-  DiGo,
+  DiMongodb
+
 } from 'react-icons/di'
 import { SiFirebase, SiTailwindcss } from 'react-icons/si'
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: 'center', paddingBottom: '50px' }}>
-      <Col xs={4} md={2} className='tech-icons' data-text='Javascript'>
-        <DiJavascript1 />
-      </Col>
       <Col xs={4} md={2} className='tech-icons' data-text='Python'>
         <DiPython />
       </Col>
+      <Col xs={4} md={2} className='tech-icons' data-text='Javascript'>
+        <DiJavascript1 />
+      </Col>
       <Col xs={4} md={2} className='tech-icons' data-text='Go Lang'>
-        <DiGo />
+        <SiGo />
       </Col>
-      <Col xs={4} md={2} className='tech-icons' data-text='Node.js'>
-        <DiNodejs />
-      </Col>
+      
       <Col xs={4} md={2} className='tech-icons' data-text='Docker'>
-        <DiDocker />
+        <SiDocker />
       </Col>
       <Col xs={4} md={2} className='tech-icons' data-text='Kubernetes'>
         <SiKubernetes />
       </Col>
-      <Col xs={4} md={2} className='tech-icons' data-text='Jira'>
-        <SiJira />
+      <Col xs={4} md={2} className='tech-icons' data-text='Node.js'>
+        <DiNodejs />
       </Col>
+      
       <Col xs={4} md={2} className='tech-icons' data-text='Terraform'>
         <SiTerraform />
       </Col>
@@ -61,6 +60,16 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className='tech-icons' data-text='Git'>
         <DiGit />
+      </Col>
+      <Col xs={4} md={2} className='tech-icons' data-text='MongoDB'>
+        <DiMongodb />
+      </Col>
+      <Col xs={4} md={2} className='tech-icons' data-text='MySQL'>
+        <SiMysql />
+      </Col>
+      
+      <Col xs={4} md={2} className='tech-icons' data-text='PostgreSQL'>
+        <SiPostgresql />
       </Col>
       <Col xs={4} md={2} className='tech-icons' data-text='Firebase'>
         <SiFirebase />

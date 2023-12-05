@@ -6,14 +6,13 @@ import {
   SiPostman,
   SiHeroku,
   SiNetlify,
-  SiMysql,
-  SiPostgresql,
   SiUnity,
   SiBlender,
   SiAdobeaftereffects,
   SiFigma,
   SiAndroidstudio,
   SiNotion,
+  SiJirasoftware
 } from 'react-icons/si'
 import { AiFillGithub } from 'react-icons/ai'
 import {
@@ -23,7 +22,6 @@ import {
   DiPhotoshop,
   DiIllustrator,
   DiTerminal,
-  DiMongodb,
 } from 'react-icons/di'
 
 function Toolstack() {
@@ -37,6 +35,9 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className='tech-icons' data-text='Visual Studio Code'>
         <SiVisualstudiocode />
+      </Col>
+      <Col xs={4} md={2} className='tech-icons' data-text='Jira'>
+        <SiJirasoftware />
       </Col>
       <Col xs={4} md={2} className='tech-icons' data-text='Blender'>
         <SiBlender />
@@ -71,15 +72,7 @@ function Toolstack() {
       <Col xs={4} md={2} className='tech-icons' data-text='Netlify'>
         <SiNetlify />
       </Col>
-      <Col xs={4} md={2} className='tech-icons' data-text='MongoDB'>
-        <DiMongodb />
-      </Col>
-      <Col xs={4} md={2} className='tech-icons' data-text='MySQL'>
-        <SiMysql />
-      </Col>
-      <Col xs={4} md={2} className='tech-icons' data-text='PostgreSQL'>
-        <SiPostgresql />
-      </Col>
+      
       <Col xs={4} md={2} className='tech-icons' data-text='GitHub'>
         <AiFillGithub />
       </Col>
