@@ -43,7 +43,7 @@ function Resume() {
               content={[
                 {
                   title: "Software Development Engineer",
-                  date: "July 2022 - CURRENT",
+                  date: "July 2023 - CURRENT",
                   content: [
                     "IBM Network Overlay - GENCTL",
                     "Creating a Stress testing module to tacle overloading problem in a region on IBM Cloud",
