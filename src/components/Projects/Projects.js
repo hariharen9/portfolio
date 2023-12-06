@@ -75,7 +75,7 @@ function Projects() {
               link='https://github.com/hariharen9/bookyourlot'
             />
           </Col>
-
+{/* 
           <Col md={4} className='project-card'>
             <ProjectCard
               imgPath='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjcK1uS4MzNKyXn9po6gN62K0TopxC9IiAaw&usqp=CAU'
@@ -84,7 +84,7 @@ function Projects() {
               description='A clever dictionaty using Python and machine learning'
               link='https://github.com/hariharen9/Pyctionary'
             />
-          </Col>
+          </Col> */}
         </Row>
         <h1 className='project-heading'>
           My Recent <strong className='purple'>Blog </strong> Posts

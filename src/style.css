@@ -270,7 +270,8 @@ html {
   /* Set initial transform properties */
   transform-origin: center center;
   transform: perspective(800px) rotate(0deg);
-  transition: transform 2s ease-in-out; /* Duration for the tilt animation */
+  transition: all 1s ease-in-out 0s !important;
+  scale: 120%; /* Duration for the tilt animation */
 
   /* Animation */
   animation-name: tiltLoop;
@@ -443,6 +444,16 @@ html {
   padding-right: 15px;
   padding-left: 15px;
 }
+.social-icons:hover {
+  display: inline-block !important;
+  padding-right: 15px;
+  padding-left: 15px;
+  scale: 150%;
+  transition: all 0.5s ease 0s !important;
+
+}
+
+
 
 .icon-colour {
   color: #700c86 !important;
@@ -728,7 +739,10 @@ html {
   /* background-image: var(--section-background-color) !important; */
   color: white !important;
 }
-
+.vl {
+  border-left: 2px solid green;
+  height: 500px;
+}
 .exp-content{
   font-weight: bold;
 }
@@ -741,11 +755,11 @@ html {
 }
 
 .resume-left {
-  padding-right: 80px !important;
+  padding-right: 50px !important;
 }
 
 .resume-right {
-  padding-left: 80px !important;
+  padding-left: 50px !important;
 }
 
 @media (max-width: 767px) {
@@ -812,59 +826,5 @@ html {
   border: 2px solid #8a49a8;
 }
 
-.like-item {
-  padding-top: 10px !important;
-  font-size: 1.1em !important;
-  font-family: sans-serif !important;
-}
 
-.like-btn {
-  background-color: #934cce5e !important;
-  border-color: #934cce5e !important;
-  padding: 0.25rem 0.98rem !important;
-  border-radius: 5px !important;
-  line-height: 1.4 !important;
-  transition: 0.3s ease !important;
-}
 
-.like-btn:hover {
-  transform: translateY(-2px) !important;
-  background-color: #a24dd386 !important;
-  border-color: #a24dd386 !important;
-}
-
-.animate-like {
-  animation-name: likeAnimation;
-  animation-fill-mode: forwards;
-  animation-duration: 0.85s;
-}
-@keyframes likeAnimation {
-  0% {
-    transform: scale(1.5);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-
-.fork-btn {
-  font-size: 1.1em !important;
-  padding-top: 10px !important;
-}
-
-.fork-btn-inner {
-  line-height: 1.4em !important;
-  background-color: #934cce5e !important;
-  padding: 0.25rem 1.1rem !important;
-  vertical-align: middle !important;
-  text-align: center !important;
-}
-
-.fork-btn-inner:hover {
-  transform: translateY(-2px) !important;
-  background-color: #a24dd386 !important;
-  border-color: #a24dd386 !important;
-}
-.fork-btn-inner::after {
-  display: none !important;
-}

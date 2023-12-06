@@ -31,11 +31,12 @@ function Resume() {
               width="300px"
               alt="home pic"
               className="img-fluid"
+              style={{paddingBottom: "5em", paddingTop: "3em"}}
             />
           </Col>
         </Row>
         <Row className="resume">
-          <Col md={6} className="resume-left">
+          <Col md={6} className="resume-left" style={{ borderRight: '3px solid rgba(205, 95, 248, 0.5)' }}>
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
               title="Tata Consultancy Services"
@@ -76,10 +77,15 @@ function Resume() {
               title="Intern [Naren Pvt.Ltd]"
               date="April 2019 - June 2019"
               content={[
+                "Naren is a Electronics manufacturing company. They specialise in textile electronics and proximity sensors.",
                 "Assembled various components related to LDR and other Sensors. Learnt to operate adn utilize a sensor for it's various purposes",
+                "Worked in SMT Soldering, heavy duty relay manufacturing, Inductive proximty sensor manufacturing.",
+                "Designing and testing circuits for Low pressure sensors.",
+                "Manufacturing and servicing spare parts of Auto Coner 338 machine."
               ]}
             />
           </Col>
+        
           <Col md={6} className="resume-right">
             <h3 className="resume-title">Education</h3>
             <Resumecontent
