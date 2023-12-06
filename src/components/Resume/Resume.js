@@ -1,7 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Resumecontent from "./ResumeContent";
-import pdf from "../../Assets/Hariharen-Resume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import hello from "../../Assets/hello.png";
 
@@ -31,12 +30,16 @@ function Resume() {
               width="300px"
               alt="home pic"
               className="img-fluid"
-              style={{paddingBottom: "5em", paddingTop: "3em"}}
+              style={{ paddingBottom: "5em", paddingTop: "3em" }}
             />
           </Col>
         </Row>
         <Row className="resume">
-          <Col md={6} className="resume-left" style={{ borderRight: '3px solid rgba(205, 95, 248, 0.5)' }}>
+          <Col
+            md={6}
+            className="resume-left"
+            style={{ borderRight: "3px solid rgba(205, 95, 248, 0.5)" }}
+          >
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
               title="Tata Consultancy Services"
@@ -81,11 +84,11 @@ function Resume() {
                 "Assembled various components related to LDR and other Sensors. Learnt to operate adn utilize a sensor for it's various purposes",
                 "Worked in SMT Soldering, heavy duty relay manufacturing, Inductive proximty sensor manufacturing.",
                 "Designing and testing circuits for Low pressure sensors.",
-                "Manufacturing and servicing spare parts of Auto Coner 338 machine."
+                "Manufacturing and servicing spare parts of Auto Coner 338 machine.",
               ]}
             />
           </Col>
-        
+
           <Col md={6} className="resume-right">
             <h3 className="resume-title">Education</h3>
             <Resumecontent
@@ -128,7 +131,13 @@ function Resume() {
           </Col>
         </Row>
         <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button variant="primary" href={pdf} target="_blank">
+          <Button
+            variant="primary"
+            href={
+              "https://drive.google.com/file/d/1emagYjcTNNaGeL23jY2i1icrTJSoKxGr/view?usp=sharing"
+            }
+            target="_blank"
+          >
             <AiOutlineDownload />
             &nbsp;Download Resume
           </Button>
