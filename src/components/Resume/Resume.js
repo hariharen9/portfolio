@@ -50,7 +50,10 @@ function Resume() {
                   date: "July 2023 - CURRENT",
                   content: [
                     "IBM Network Overlay - GENCTL",
-                    "Creating a Stress testing module to tacle overloading problem in a region on IBM Cloud",
+                    "Spearheaded the development of an comprehensive internal utility tool, which was initially convieved as a tool for stress testing, but evolved into an automation tool which is used by the entire team for development and testing.",
+                    "The tool can create network resources inside the kubernetes cluster, delete the created resources, restart the pods, fetch logs and option is available to simulate the production environment further helping in troubleshooting and debugging for developers",
+                    "This improved the developer experience significantly and ensured the code that was being shipped is bulletproof and decreased the testing duration by 90% since most of the setup is automated.",
+                    "Demonstrated proficiency in scripting, network resource management, and automation, resulting in heightened operational efficiency within the organization.",
                   ],
                 },
                 {
@@ -128,6 +131,14 @@ function Resume() {
                 "Participant in SIH2020",
               ]}
             />
+            <h3 className="resume-title">Courses</h3>
+            <Resumecontent title="IBM Cloud Advocate V2" content={[]} />
+            <Resumecontent title="Python Specialization" content={[]} />
+            <Resumecontent title="Flutter Bootcamp 2020" content={[]} />
+            <Resumecontent title="Blockchain Basics" content={[]} />
+            <Resumecontent title="Javascript Bootcamp" content={[]} />
+            <Resumecontent title="Full-Stack Web Developer" content={[]} />
+            <h7>And many more....</h7>
           </Col>
         </Row>
         <Row style={{ justifyContent: "center", position: "relative" }}>
