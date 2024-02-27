@@ -50,7 +50,7 @@ function Resume() {
                   date: "July 2023 - CURRENT",
                   content: [
                     "IBM Network Overlay - GENCTL",
-                    "Spearheaded the development of an comprehensive internal utility tool, which was initially convieved as a tool for stress testing, but evolved into an automation tool which is used by the entire team for development and testing.",
+                    "Spearheaded the development of an comprehensive internal utility tool, which was initially concieved as a tool for stress testing, but evolved into an automation tool which is used by the entire team for development and testing.",
                     "The tool can create network resources inside the kubernetes cluster, delete the created resources, restart the pods, fetch logs and option is available to simulate the production environment further helping in troubleshooting and debugging for developers",
                     "This improved the developer experience significantly and ensured the code that was being shipped is bulletproof and decreased the testing duration by 90% since most of the setup is automated.",
                     "Demonstrated proficiency in scripting, network resource management, and automation, resulting in heightened operational efficiency within the organization.",

@@ -26,7 +26,7 @@ function Home2() {
               <br />
               <br />I am fluent in languages like
               <i>
-                <b className="purple"> Javascript, Python & Go. </b>
+                <b className="purple"> Python, Go & Javascript. </b>
               </i>
               🚀
               <br />
