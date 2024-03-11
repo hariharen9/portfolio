@@ -50,10 +50,10 @@ function Resume() {
                   date: "July 2023 - CURRENT",
                   content: [
                     "IBM Network Overlay - GENCTL",
-                    "Spearheaded the development of an comprehensive internal utility tool, which was initially concieved as a tool for stress testing, but evolved into an automation tool which is used by the entire team for development and testing.",
-                    "The tool can create network resources inside the kubernetes cluster, delete the created resources, restart the pods, fetch logs and option is available to simulate the production environment further helping in troubleshooting and debugging for developers",
-                    "This improved the developer experience significantly and ensured the code that was being shipped is bulletproof and decreased the testing duration by 90% since most of the setup is automated.",
-                    "Demonstrated proficiency in scripting, network resource management, and automation, resulting in heightened operational efficiency within the organization.",
+                    "Spearheaded development of an internal tool for stress testing, evolving it into a team-wide automation tool",
+                    "Enhanced developer experience by automating Kubernetes resource management, pod restarts, log  fetching, and simulating production environments.",
+                    "Achieved a 90% reduction in stress testing duration, ensuring bulletproof code on production and increased operational efficiency",
+                    "Demonstrated proficiency in scripting, resource management, and automation for heightened organizational efficiency",
                   ],
                 },
                 {
@@ -62,11 +62,11 @@ function Resume() {
                   content: [
                     "IBM COS-VPC Infrastructure",
 
-                    "Engineered an industry-standard solution that integrates twistlock scan results with Slack and GIT issue creation using Python which is automated and will ensure the system is secure all the time.",
+                    "Engineered an industry-standard Python-based solution integrating Twistlock scan results with Slack and GITHUB for automated security monitoring, ensuring continuous system safety",
 
-                    "Reduced the upgrade time of clusters by 40% after calculating the average time a cluster takes and making changes to the already existing patch upgrade code.",
+                    "Slashed cluster upgrade time by 40% through optimization of existing patch upgrade code, based on calculated average cluster processing time",
 
-                    "Filtered the system diagnostics notifications and split them according to their severity which was not in place previously",
+                    "Implemented a refined system diagnostics notification system, categorizing alerts by severity for improved monitoring and response capabilities.",
                   ],
                 },
                 {

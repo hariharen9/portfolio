@@ -257,7 +257,7 @@ html {
 .home-section-2 {
   position: relative;
   z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/home-bg2-90.webp);
+  background-image: var(--image-gradient), url(./Assets/home-bg2-90.jpeg);
   background-position: center center; /* Set positions for each image */
   background-size: cover, cover; /* Set sizes for each image */
   background-repeat: no-repeat;
@@ -508,7 +508,7 @@ html {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-image:var(--image-gradient), url(./Assets/home-bg2-flip.webp);
+  background-image:var(--image-gradient), url(./Assets/home-bg2-flip.jpeg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed; /* Optional: Fixes the background while scrolling */
@@ -731,7 +731,7 @@ html {
   position: relative !important;
   padding-top: 110px !important;
   padding-bottom: 30px !important;
-  background-image: var(--image-gradient), url(./Assets/home-bg2-90.webp);
+  background-image: var(--image-gradient), url(./Assets/home-bg2-90.jpeg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed; /* Optional: Fixes the background while scrolling */
@@ -744,8 +744,8 @@ html {
   height: 500px;
 }
 .exp-content{
-  font-weight: bold;
-  font-size: medium;
+  font-weight: medium;
+  font-size: large;
 }
 .new-certifications{
   padding: 50px

@@ -1,7 +1,16 @@
-import React from 'react'
-import { Col, Row } from 'react-bootstrap'
-import { BsFillBootstrapFill } from 'react-icons/bs'
-import { SiFlutter, SiKubernetes, SiTerraform, SiGo, SiDocker,SiMysql, SiPostgresql } from 'react-icons/si'
+import React from "react";
+import { Col, Row } from "react-bootstrap";
+import { BsFillBootstrapFill } from "react-icons/bs";
+import {
+  SiFlutter,
+  SiKubernetes,
+  SiTerraform,
+  SiGo,
+  SiDocker,
+  SiMysql,
+  SiPostgresql,
+  SiAnsible,
+} from "react-icons/si";
 import {
   DiJavascript1,
   DiReact,
@@ -11,77 +20,79 @@ import {
   DiDart,
   DiHtml5,
   DiCss3,
-  DiMongodb
-
-} from 'react-icons/di'
-import { SiFirebase, SiTailwindcss } from 'react-icons/si'
+  DiMongodb,
+} from "react-icons/di";
+import { SiFirebase, SiTailwindcss } from "react-icons/si";
 
 function Techstack() {
   return (
-    <Row style={{ justifyContent: 'center', paddingBottom: '50px' }}>
-      <Col xs={4} md={2} className='tech-icons' data-text='Python'>
+    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+      <Col xs={4} md={2} className="tech-icons" data-text="Python">
         <DiPython />
       </Col>
-      <Col xs={4} md={2} className='tech-icons' data-text='Javascript'>
+      <Col xs={4} md={2} className="tech-icons" data-text="Javascript">
         <DiJavascript1 />
       </Col>
-      <Col xs={4} md={2} className='tech-icons' data-text='Go Lang'>
+      <Col xs={4} md={2} className="tech-icons" data-text="Go Lang">
         <SiGo />
       </Col>
-      
-      <Col xs={4} md={2} className='tech-icons' data-text='Docker'>
+
+      <Col xs={4} md={2} className="tech-icons" data-text="Docker">
         <SiDocker />
       </Col>
-      <Col xs={4} md={2} className='tech-icons' data-text='Kubernetes'>
+      <Col xs={4} md={2} className="tech-icons" data-text="Kubernetes">
         <SiKubernetes />
       </Col>
-      <Col xs={4} md={2} className='tech-icons' data-text='Node.js'>
+      <Col xs={4} md={2} className="tech-icons" data-text="Node.js">
         <DiNodejs />
       </Col>
-      
-      <Col xs={4} md={2} className='tech-icons' data-text='Terraform'>
+
+      <Col xs={4} md={2} className="tech-icons" data-text="Terraform">
         <SiTerraform />
       </Col>
+      <Col xs={4} md={2} className="tech-icons" data-text="Ansible">
+        <SiAnsible />
+      </Col>
 
-      <Col xs={4} md={2} className='tech-icons' data-text='React'>
+      <Col xs={4} md={2} className="tech-icons" data-text="React">
         <DiReact />
       </Col>
-      <Col xs={4} md={2} className='tech-icons' data-text='Flutter'>
+      <Col xs={4} md={2} className="tech-icons" data-text="Flutter">
         <SiFlutter />
       </Col>
-      <Col xs={4} md={2} className='tech-icons' data-text='Dart'>
+      <Col xs={4} md={2} className="tech-icons" data-text="Dart">
         <DiDart />
       </Col>
-      <Col xs={4} md={2} className='tech-icons' data-text='HTML5'>
+      <Col xs={4} md={2} className="tech-icons" data-text="HTML5">
         <DiHtml5 />
       </Col>
-      <Col xs={4} md={2} className='tech-icons' data-text='CSS3'>
+      <Col xs={4} md={2} className="tech-icons" data-text="CSS3">
         <DiCss3 />
       </Col>
-      <Col xs={4} md={2} className='tech-icons' data-text='Git'>
+      <Col xs={4} md={2} className="tech-icons" data-text="Git">
         <DiGit />
       </Col>
-      <Col xs={4} md={2} className='tech-icons' data-text='MongoDB'>
+      <Col xs={4} md={2} className="tech-icons" data-text="MongoDB">
         <DiMongodb />
       </Col>
-      <Col xs={4} md={2} className='tech-icons' data-text='MySQL'>
+      <Col xs={4} md={2} className="tech-icons" data-text="MySQL">
         <SiMysql />
       </Col>
-      
-      <Col xs={4} md={2} className='tech-icons' data-text='PostgreSQL'>
+
+      <Col xs={4} md={2} className="tech-icons" data-text="PostgreSQL">
         <SiPostgresql />
       </Col>
-      <Col xs={4} md={2} className='tech-icons' data-text='Firebase'>
+      <Col xs={4} md={2} className="tech-icons" data-text="Firebase">
         <SiFirebase />
       </Col>
-      <Col xs={4} md={2} className='tech-icons' data-text='Tailwind CSS'>
+      <Col xs={4} md={2} className="tech-icons" data-text="Tailwind CSS">
         <SiTailwindcss />
       </Col>
-      <Col xs={4} md={2} className='tech-icons' data-text='Bootstrap'>
+      <Col xs={4} md={2} className="tech-icons" data-text="Bootstrap">
         <BsFillBootstrapFill />
       </Col>
     </Row>
-  )
+  );
 }
 
-export default Techstack
+export default Techstack;
