@@ -48,6 +48,17 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath="https://i.imgur.com/a8eTprC.png"
+              isBlog={false}
+              title="FOG BLOGG - Blog with ease"
+              description="    
+              
+               This is a Full-Stack Web Application is built using NEXTJS as frontend, NODEJS as server / Backend & FIREBASE for the database. This has AUTHENTICATION features like Sign-In with GOOGLE or Sign-in Anonymously. Users can Login, Write blogs and see /react to others blogs. Everything is PUBLIC and in chronological order so it is transparent just like a BLOCKCHAIN 😉"
+              link="https://foggy.vercel.app"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath="https://developers.google.com/ml-kit/vision/face-detection/images/face_detection2x.png"
               isBlog={false}
               title="MagicBrain - FaceDetection AI"
