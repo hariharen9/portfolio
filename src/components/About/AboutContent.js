@@ -20,9 +20,10 @@ function AboutContent(props) {
         <em>{props.date}</em>
       </p>
       <div className="source-item">
-      {props.content && props.content.length > 0 && ( // Check if content exists and is not empty
-        <p>{contentText}</p>
-      )}
+        {props.content &&
+          props.content.length > 0 && ( // Check if content exists and is not empty
+            <p>{contentText}</p>
+          )}
       </div>
     </div>
   );

@@ -2,7 +2,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Resumecontent from "./ResumeContent";
 import { AiOutlineDownload } from "react-icons/ai";
-import hello from "../../Assets/hello.png";
+import hello from "../../Assets/hello.svg";
 
 function Resume() {
   // const [cgpa, upadteCgpa] = useState(0);
@@ -38,7 +38,7 @@ function Resume() {
           <Col
             md={6}
             className="resume-left"
-            style={{ borderRight: "3px solid rgba(205, 95, 248, 0.5)" }}
+            style={{ borderRight: "3px solid rgb(0, 174, 239)" }}
           >
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
@@ -80,14 +80,17 @@ function Resume() {
               ]}
             />
             <Resumecontent
-              title="Intern [Naren Pvt.Ltd]"
-              date="April 2019 - June 2019"
+              title="TROUVAILLE INC."
+              date="March 2020 - June 2022"
               content={[
-                "Naren is a Electronics manufacturing company. They specialise in textile electronics and proximity sensors.",
-                "Assembled various components related to LDR and other Sensors. Learnt to operate adn utilize a sensor for it's various purposes",
-                "Worked in SMT Soldering, heavy duty relay manufacturing, Inductive proximty sensor manufacturing.",
-                "Designing and testing circuits for Low pressure sensors.",
-                "Manufacturing and servicing spare parts of Auto Coner 338 machine.",
+                {
+                  title: "CO-FOUNDER",
+                  content: [
+                    "Co-founded a startup which focuses on designing and developing Websites and Mobile applications.",
+                    "Created and published two mobile applications to the playstore",
+                    "Designed and developed multiple websites for customers and institutions",
+                  ],
+                },
               ]}
             />
           </Col>

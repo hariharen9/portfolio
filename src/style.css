@@ -1,17 +1,22 @@
 html {
   --section-background-color: linear-gradient(
     to bottom left,
-    rgba(17, 16, 16, 0.582),
-    rgba(12, 8, 24, 0.904)
+    rgba(16, 17, 17, 0.582),
+    rgba(8, 19, 24, 0.904)
   );
 
   --image-gradient: linear-gradient(
     to bottom left,
-    rgba(17, 16, 16, 0.378),
-    rgba(14, 11, 26, 0.863)
+    rgba(17, 16, 16, 0.2),
+    rgba(14, 11, 26, 0.6)
+  ),
+  radial-gradient(
+    ellipse at center,
+    rgba(0, 0, 0, 0.3), /* Darker center */
+    rgba(0, 0, 0, 0) 60% /* Transparent towards the edges */
   );
 
-  --imp-text-color: #c770f0;
+  --imp-text-color: #00aeef;
 }
 
 .purple {
@@ -28,7 +33,7 @@ html {
   width: 100%;
   height: 100%;
   z-index: 999999;
-  background-color: #0c0513;
+  background-color: #011449;
   background-image: url(./Assets/pre.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -94,7 +99,7 @@ html {
 
 .navbar-toggler span {
   display: block !important;
-  background-color: #be50f4 !important;
+  background-color: #00aeef !important;
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -192,7 +197,7 @@ html {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #c95bf5;
+  background: #00aeef;
   bottom: 1px;
   left: 0;
   z-index: -1;
@@ -247,7 +252,8 @@ html {
 .home-section {
   position: relative;
   /* background-image: var(--image-gradient), url(./Assets/home-bg.jpg); */
-  background-image: var(--image-gradient), url(./Assets/home-bg2.jpg);
+  background-image: var(--image-gradient), url(./Assets/bg3.jpg);
+  background-attachment: fixed;
   background-position: center center;
   background-size: cover; /* This property ensures the image covers the entire background */
   background-repeat: no-repeat;
@@ -324,7 +330,7 @@ html {
 }
 
 .main-name {
-  color: #cd5ff8;
+  color: #00aeef;
 }
 .type-style{
   padding-block: 50;
@@ -332,7 +338,7 @@ html {
 }
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #be6adf !important;
+  color: #00aeef !important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
@@ -422,7 +428,7 @@ html {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: #68187a;
+  background: #00aeef;
   transition: 0.5s;
   transform: scale(0.9);
   z-index: -1;
@@ -430,13 +436,13 @@ html {
 
 .home-social-icons:hover::before {
   transform: scale(1.1);
-  box-shadow: 0 0 15px #801f95;
+  box-shadow: 0 0 15px #00aeef;
 }
 
 .home-social-icons:hover {
-  color: #87209e;
-  box-shadow: 0 0 5px #87209e;
-  text-shadow: 0 0 2px #87209e;
+  color: #00aeef;
+  box-shadow: 0 0 5px #00aeef;
+  text-shadow: 0 0 2px #00aeef;
 }
 
 .social-icons {
@@ -456,7 +462,7 @@ html {
 
 
 .icon-colour {
-  color: #700c86 !important;
+  color: #00aeef !important;
 }
 
 /* --------- */
@@ -508,7 +514,7 @@ html {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-image:var(--image-gradient), url(./Assets/home-bg2-flip.jpeg);
+  background-image:var(--image-gradient), url(./Assets/bg3.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed; /* Optional: Fixes the background while scrolling */
@@ -525,7 +531,7 @@ html {
 }
 
 .project-card-view {
-  box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
+  box-shadow: 0 4px 5px 3px rgb(0, 174, 239) !important;
   color: white !important;
   background-color: transparent !important;
   opacity: 0.9 !important;
@@ -536,7 +542,7 @@ html {
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
-  box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
+  box-shadow: 0 4px 4px 5px #00ae11 !important;
 }
 
 .blog-card {
@@ -549,7 +555,7 @@ html {
 
 .blog-card-view {
   background-color: transparent !important;
-  box-shadow: 0 3px 3px 2px rgba(145, 77, 161, 0.459) !important;
+  box-shadow: 0 3px 3px 2px rgb(0, 174, 239) !important;
   color: white !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
@@ -567,7 +573,7 @@ html {
 .blog-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
-  box-shadow: 0 3px 3px 5px rgba(155, 88, 173, 0.65) !important;
+  box-shadow: 0 3px 3px 5px #00ae11 !important;
 }
 
 .card-img-top {
@@ -584,14 +590,14 @@ html {
 
 .btn-primary {
   color: #fff !important;
-  background-color: #623686 !important;
-  border-color: #623686 !important;
+  background-color: #00aeef !important;
+  border-color: #00aeef !important;
 }
 
 .btn-primary:hover {
   color: #fff !important;
-  background-color: #6d20c5d7 !important;
-  border-color: #6d20c5d7 !important;
+  background-color: #00ae11 !important;
+  border-color: #00ae11 !important;
 }
 .btn:focus {
   outline: none !important;
@@ -640,7 +646,7 @@ html {
   margin: 15px !important;
   padding: 10px !important;
   opacity: 0.93 !important;
-  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+  border: 1.7px solid rgb(0, 174, 239) !important;
   vertical-align: middle !important;
   text-align: center !important;
   border-radius: 5px !important;
@@ -658,7 +664,7 @@ html {
   left: 0; /* Added */
   width: 100%; /* Added */
   height: 100%; /* Added */
-  background-color: #c66ee7; /* Changed */
+  background-color: #00aeef; /* Changed */
   color: #ffffff; /* Added */
   display: flex; /* Added */
   align-items: center; /* Added */
@@ -685,7 +691,7 @@ html {
 .tech-icons:hover {
   transform: scale(1.05) !important;
   overflow: hidden !important;
-  border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
+  border: 2.2px solid rgb(0, 174, 239) !important;
 }
 .tech-icon-images {
   padding: 20px !important;
@@ -784,7 +790,7 @@ html {
 .resume .resume-item {
   padding: 0 0 10px 25px;
   margin-top: -2px;
-  border-left: 2px solid #8a49a8;
+  border-left: 2px solid #00aeef;
   position: relative;
   font-size: small;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -824,7 +830,7 @@ html {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #8a49a8;
+  border: 2px solid #00aeef;
 }
 
 
