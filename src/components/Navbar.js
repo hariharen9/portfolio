@@ -4,13 +4,10 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import logo from "../Assets/hh.svg";
 import { Link } from "react-router-dom";
-import {
-  AiOutlineHome,
-  AiOutlineFundProjectionScreen,
-  AiOutlineUser,
-} from "react-icons/ai";
-
-import { CgFileDocument } from "react-icons/cg";
+import { SiGooglehome } from "react-icons/si";
+import { FaUserGraduate } from "react-icons/fa6";
+import { HiDocumentDuplicate } from "react-icons/hi2";
+import { PiProjectorScreenChartFill } from "react-icons/pi";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -52,7 +49,7 @@ function NavBar() {
           <Nav className="ml-auto" defaultActiveKey="#home">
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-                <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
+                <SiGooglehome style={{ marginBottom: "2px" }} /> Home
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
@@ -61,7 +58,7 @@ function NavBar() {
                 to="/about"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> About
+                <FaUserGraduate style={{ marginBottom: "2px" }} /> About
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
@@ -70,7 +67,7 @@ function NavBar() {
                 to="/resume"
                 onClick={() => updateExpanded(false)}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+                <HiDocumentDuplicate style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
@@ -79,9 +76,7 @@ function NavBar() {
                 to="/project"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineFundProjectionScreen
-                  style={{ marginBottom: "2px" }}
-                />{" "}
+                <PiProjectorScreenChartFill style={{ marginBottom: "2px" }} />{" "}
                 Projects
               </Nav.Link>
             </Nav.Item>

@@ -33,7 +33,7 @@ html {
   width: 100%;
   height: 100%;
   z-index: 999999;
-  background-color: #011449;
+  background-color: #000000;
   background-image: url(./Assets/pre.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -440,7 +440,7 @@ html {
 }
 
 .home-social-icons:hover {
-  color: #00aeef;
+  color: #035e80;
   box-shadow: 0 0 5px #00aeef;
   text-shadow: 0 0 2px #00aeef;
 }
@@ -531,7 +531,7 @@ html {
 }
 
 .project-card-view {
-  box-shadow: 0 4px 5px 3px rgb(0, 174, 239) !important;
+  box-shadow: 0 4px 5px 8px rgb(0, 174, 239) !important;
   color: white !important;
   background-color: transparent !important;
   opacity: 0.9 !important;
@@ -555,7 +555,7 @@ html {
 
 .blog-card-view {
   background-color: transparent !important;
-  box-shadow: 0 3px 3px 2px rgb(0, 174, 239) !important;
+  box-shadow: 0 3px 3px 8px rgb(0, 174, 239) !important;
   color: white !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
@@ -618,7 +618,7 @@ html {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-image: var(--image-gradient),url(./Assets/home-bg2.jpg);
+  background-image: var(--image-gradient),url(./Assets/bg3.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed; /* Optional: Fixes the background while scrolling */
@@ -712,6 +712,11 @@ html {
 .about-text{
   font-size: x-large;
   text-align: justify;
+  
+}
+
+.about-text li {
+  margin-bottom: 1em; /* Adjust the value to your desired spacing */
 }
 /* Media query for smaller screens (phones) */
 @media only screen and (max-width: 600px) {
@@ -737,7 +742,7 @@ html {
   position: relative !important;
   padding-top: 110px !important;
   padding-bottom: 30px !important;
-  background-image: var(--image-gradient), url(./Assets/home-bg2-90.jpeg);
+  background-image: var(--image-gradient), url(./Assets/bg3.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed; /* Optional: Fixes the background while scrolling */
