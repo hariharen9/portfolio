@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/avatar.png";
 import {
   AiFillGithub,
   AiOutlineTwitter,
@@ -14,7 +14,13 @@ function Home2() {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
+            <h1
+              style={{
+                fontSize: "2.6em",
+                paddingBottom: "30px",
+                paddingTop: "100px",
+              }}
+            >
               LET ME TELL YOU<span className="purple"> A BIT </span> ABOUT
               MYSELF
             </h1>
