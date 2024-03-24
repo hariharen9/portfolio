@@ -1,12 +1,13 @@
 <h2 align="center">
   Portfolio Website<br/>
-  <a href="http://hariharen.netlify.app/" target="_blank">HARIHAREN | HH</a>
+  <a href="http://hariharen.site/" target="_blank">HARIHAREN | Portfolio</a>
 </h2>
-<h6 align="center">Demo ☝</h6>
+<h6 align="center">Live ☝</h6>
 <div align="center">
   <img alt="Demo" src="./Images/Home.png" />
   <br/>
-  
+  <img alt="Demo" src="./Images/about.PNG" />
+
   
 </div>
 
@@ -14,7 +15,7 @@
 
 ## Built With
 
-My personal portfolio <a href="http://Hariharen.netlify.app/" target="_blank">Hariharen</a> which features some of my github projects as well as my resume and technical skills.<br/>
+My personal portfolio <a href="http://Hariharen.site/" target="_blank">Hariharen</a> features some of my GitHub projects as well as my resume and technical skills.<br/>
 
 This project was built using React.JS.
 
@@ -22,7 +23,7 @@ This project was built using React.JS.
 
 **📖 Multi-Page Layout with Particles effect**
 
-**🎨 Styled with React, Css, Tachyon, React-Icons etc...**
+**🎨 Styled with React, Css, React-Icons etc...**
 
 **📱 Fully Responsive**
 
