@@ -17,6 +17,19 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath="https://assets.intersystems.com/26/bd/6a6aa762425f87ad7d5c2fe65f8c/awslogo-image.jpg"
+              isBlog={false}
+              title="Hosting with AWS"
+              description="    
+              
+              Built my personal portfolio website with ReactJS and hosted it in AWS using a CI/CD Pipeline.
+              Also hosted it on netlify with a custom domain address.
+              Used S3 bucket to serve the webpage. Codepipeline and Codebuild was used for the pipeline connected to Github. So anytime a commit is made to the repository, The code build will trigger with the help of webhooks, store the build files in the S3 bucket and then it will trigger the pipeline and deploy the website automatically."
+              link="http://mypersonalportfolio-cicd.s3-website.ap-south-1.amazonaws.com/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath="https://i.ibb.co/HdHNF2Z/kuber.png"
               isBlog={false}
               title="Kubernetes Resource Generator"
