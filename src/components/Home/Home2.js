@@ -65,7 +65,11 @@ function Home2() {
             </p>
           </Col>
           <Col md={4} className="myAvtar">
-            <img src={myImg} className="img-tilt" alt="avatar" />
+            <img
+              src={myImg}
+              className="img-tilt img-fluid w-100 w-md-75 w-lg-50"
+              alt="avatar"
+            />
           </Col>
         </Row>
         <Row>
