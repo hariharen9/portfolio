@@ -19,7 +19,7 @@ function Projects() {
             <ProjectCard
               imgPath="https://assets.intersystems.com/26/bd/6a6aa762425f87ad7d5c2fe65f8c/awslogo-image.jpg"
               isBlog={false}
-              title="Hosting with AWS"
+              title="CI/CD with AWS"
               description="    
               
               Built my personal portfolio website with ReactJS and hosted it in AWS using a CI/CD Pipeline.
