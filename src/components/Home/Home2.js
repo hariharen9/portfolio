@@ -27,7 +27,7 @@ function Home2() {
 
             <p className="home-about-body">
               I've always loved Computers, Wanting to know how this blackbox
-              works underneth. That curiosity brought me into the world of
+              works underneath. That curiosity brought me into the world of
               Programming 👨‍💻.
               <br />
               <br />I am fluent in languages like
