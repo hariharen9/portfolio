@@ -10,6 +10,7 @@ import {
   SiMysql,
   SiPostgresql,
   SiAnsible,
+  SiJenkins,
 } from "react-icons/si";
 import {
   DiJavascript1,
@@ -52,6 +53,9 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons" data-text="Ansible">
         <SiAnsible />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons" data-text="Jenkins">
+        <SiJenkins />
       </Col>
 
       <Col xs={4} md={2} className="tech-icons" data-text="React">
