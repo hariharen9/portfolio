@@ -13,7 +13,6 @@ import {
   SiAndroidstudio,
   SiNotion,
   SiJirasoftware,
-  SiGit,
 } from "react-icons/si";
 import { AiFillGithub } from "react-icons/ai";
 import {
