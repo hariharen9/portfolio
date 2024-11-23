@@ -19,7 +19,7 @@ function About() {
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Know more about <strong className="purple">ME</strong>
+              Know more about <strong className="blue">ME</strong>
             </h1>
             <Aboutcard />
           </Col>
@@ -32,19 +32,19 @@ function About() {
           </Col>
         </Row>
         <h1 className="project-heading">
-          Professional <strong className="purple">Skillset </strong>
+          Professional <strong className="blue">Skillset </strong>
         </h1>
 
         <Techstack />
 
         <h1 className="project-heading">
-          <strong className="purple">Tools</strong> I use
+          <strong className="blue">Tools</strong> I use
         </h1>
         <Toolstack />
       </Container>
       <Container className="new-certifications">
         <h1 className="project-heading">
-          My <strong className="purple">CERTIFICATIONS</strong>
+          My <strong className="blue">CERTIFICATIONS</strong>
         </h1>
         <br />
         <br />

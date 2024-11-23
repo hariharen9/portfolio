@@ -8,11 +8,11 @@ function Projects() {
     <Container fluid className="project-section">
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          My Recent <strong className="blue">Works </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few <b className="purple">PERSONAL </b> projects I've
-          worked on recently.
+          Here are a few <b className="blue">PERSONAL </b> projects I've worked
+          on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
@@ -46,17 +46,19 @@ function Projects() {
               isBlog={false}
               title="Angst"
               description="Angst is your guide to reduce your mind-wandering and to feel less anxious. Our handpicked collection of ASMRs, Podcasts, Reading, Exercises, Quizzes, and Videos would help you feel less anxious and would definitely accompany you the next time when you have an anxiety attack."
-              link="https://play.google.com/store/apps/details?id=com.trouvaille.angst"
+              // link="https://play.google.com/store/apps/details?id=com.trouvaille.angst"
+              link="https://github.com/hariharen9/angst/releases/tag/v1.0"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath="https://play-lh.googleusercontent.com/Gas7uD7_5AOu53NBkW0RaCbS2_4TIFek1olb2HGe_2pVg-H5EzuWFpRCbW6kwwAZNaI=s180-rw"
+              imgPath="https://raw.githubusercontent.com/hariharen9/cashtrack/refs/heads/main/assets/my_icon.png"
               isBlog={false}
               title="CASHTRACK"
               description="Are you someone who suffers from impulse buying? Are you planning to increase your savings to buy a new phone or go on a nice vacation, but always lose track of how you spend your money? This app is here to help you achieve your next big goal."
-              link="https://play.google.com/store/apps/details?id=com.hariharen.cashtrack"
+              // link="https://play.google.com/store/apps/details?id=com.hariharen.cashtrack"
+              link="https://github.com/hariharen9/cashtrack/releases/tag/v1.0"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -112,7 +114,7 @@ function Projects() {
           </Col> */}
         </Row>
         <h1 className="project-heading">
-          Some of my <strong className="purple">Blog </strong> Posts
+          Some of my <strong className="blue">Blog </strong> Posts
         </h1>
         <p style={{ color: "white" }}>Do give a read to some of my blogs</p>
         <Row style={{ justifyContent: "center" }}>

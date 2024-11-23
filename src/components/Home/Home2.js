@@ -21,8 +21,7 @@ function Home2() {
                 paddingTop: "100px",
               }}
             >
-              LET ME TELL YOU<span className="purple"> A BIT </span> ABOUT
-              MYSELF
+              LET ME TELL YOU<span className="blue"> A BIT </span> ABOUT MYSELF
             </h1>
 
             <p className="home-about-body">
@@ -32,34 +31,31 @@ function Home2() {
               <br />
               <br />I am fluent in languages like
               <i>
-                <b className="purple"> Python, Go & Javascript. </b>
+                <b className="blue"> Python, Go & Javascript. </b>
               </i>
               🚀
               <br />
               And I have experience working with Technologies like
               <i>
-                <b className="purple">
-                  {" "}
-                  Docker, Kubernetes, React and Flutter{" "}
-                </b>
+                <b className="blue"> Docker, Kubernetes, React and Flutter </b>
               </i>{" "}
               to say a few.
               <br />
               <br />
               My fields of Interest includes building new&nbsp;
               <i>
-                <b className="purple"> Web Applications, Cloud Technologies </b>{" "}
+                <b className="blue"> Web Applications, Cloud Technologies </b>{" "}
                 and also in areas related to{" "}
-                <b className="purple"> Mobile Apps and Game Development. </b>
+                <b className="blue"> Mobile Apps and Game Development. </b>
               </i>
               🎮
               <br />
               <br />
               Whenever possible, I also play a lot of{" "}
-              <b className="purple"> Video Games</b> and I also love to spend my
+              <b className="blue"> Video Games</b> and I also love to spend my
               leisure time with some &nbsp;
               <i>
-                <b className="purple">Movies and Series </b>
+                <b className="blue">Movies and Series </b>
               </i>
               🍿
             </p>
@@ -67,7 +63,8 @@ function Home2() {
           <Col md={4} className="myAvtar">
             <img
               src={myImg}
-              className="img-tilt img-fluid w-100 w-md-75 w-lg-50"
+              // className="img-tilt img-fluid w-100 w-md-75 w-lg-50"
+              className="img-fluid w-100 w-md-75 w-lg-50" // removed tilt
               alt="avatar"
             />
           </Col>
@@ -75,7 +72,7 @@ function Home2() {
         <Row>
           <Col md={12} className="home-about-social">
             <p>
-              Feel free to <span className="purple">connect </span>with me
+              Feel free to <span className="blue">connect </span>with me
             </p>
             <h1>FIND ME ON</h1>
 

@@ -3,77 +3,49 @@ import Card from "react-bootstrap/Card";
 
 function AboutCard() {
   return (
-    // <Card className='quote-card-view'>
-    //   <Card.Body>
-    //     <div className='about-text'>
-    //       Hello there! I'm Hariharen, a{' '}
-    //       <b className='purple'> Computer Science Engineering </b>graduate from
-    //       CIT, Coimbatore. I am working in <b className='purple'>TCS</b> as a
-    //       Systems Engineer, currently delving deep into the cloud realm within
-    //       <b className='purple'> IBM Cloud.</b>
-    //       <br />
-    //       <br />
-    //       My journey began at IBM, where I initially contributed as a contract
-    //       employee in the VPC division. Now, I am working in{' '}
-    //       <b className='purple'>Network overlay</b>, shaping cloud
-    //       infrastructure to align with diverse user requirements while
-    //       optimizing system software for enhanced performance and security.
-    //       ensuring system compliance and high availability, essential for
-    //       scaling applications effectively.
-    //       <br />
-    //       <br />
-    //       I'm also an avid <b className='purple'>Tech enthusiast</b> with a
-    //       flair for scripting to automate tasks. I have proficiency in{' '}
-    //       <b className='purple'>JavaScript, Python and Go</b>. I also have
-    //       worked in React, Flutter and have a passion for crafting compelling
-    //       websites and mobile applications. I've even ventured into app
-    //       development, successfully launching{' '}
-    //       <b className='purple'>two apps on the Play Store</b>, and previously
-    //       founded a startup centered on web development.
-    //       <b className='purple'> Let's connect</b> and exchange insights within
-    //       this exciting tech-driven sphere!
-    //       <br />
-    //     </div>
-    //   </Card.Body>
-    // </Card>
     <Card className="quote-card-view">
       <Card.Body>
         <div className="about-text">
+          {/* <h2 className="blue">About Me</h2> */}
           <ul>
             <li>
-              Hello there! I'm Hariharen, a{" "}
-              <b className="purple">Computer Science Engineering</b> graduate
-              from CIT, Coimbatore.
+              Hi! I'm <b className="blue">Hariharen</b>, a passionate{" "}
+              <b className="blue">Computer Science Engineer</b> graduate from
+              CIT, Coimbatore.
             </li>
             <li>
-              Currently working at <b className="purple">TCS</b> as a Systems
-              Engineer, exploring the cloud realm within{" "}
-              <b className="purple">IBM Cloud</b>.
+              Currently working at <b className="blue">TCS</b> as a Systems
+              Engineer, diving into the cloud space with{" "}
+              <b className="blue">IBM Cloud</b>.
             </li>
             <li>
-              My journey began at IBM, where I initially contributed as a
-              contract employee in the VPC division.
+              My professional journey began at <b className="blue">IBM</b> as a
+              contract employee in the VPC division, where I gained foundational
+              expertise in cloud infrastructure through{" "}
+              <b className="blue">Docker and Kubernetes.</b>
             </li>
             <li>
-              Now, I am under <b className="purple">Network overlay</b> in IBM,
-              shaping cloud infrastructure to align with diverse user
-              requirements while optimizing system software for enhanced
-              performance and security.
+              I now specialize in <b className="blue">Network Overlay</b>,
+              focusing on optimizing cloud systems for performance, security,
+              and scalability.
             </li>
             <li>
-              I'm also an avid <b className="purple">Tech enthusiast</b> with a
-              flair for scripting to automate tasks proficient in{" "}
-              <b className="purple">JavaScript, Python, and Go</b>.
+              With a strong interest in technology, I excel in{" "}
+              <b className="blue">JavaScript, Python, and Go</b>, and have
+              experience with frameworks like <b>React</b> and <b>Flutter</b>.
             </li>
             <li>
-              Experienced in React, Flutter, and Web development, ventured into
-              app development, successfully launching{" "}
-              <b className="purple">two apps on the Play Store</b>, and
-              previously founded a startup centered on web development.
+              I’m passionate about building solutions, from crafting engaging
+              websites to launching <b className="blue">two apps</b> on the Play
+              Store. I also co-founded a startup centered around web
+              development.
             </li>
             <li>
-              Let's connect and exchange insights within this exciting
-              tech-driven sphere!
+              Beyond work, I enjoy exploring automation and scripting to solve
+              everyday challenges.
+            </li>
+            <li>
+              Let's connect and share ideas in this ever-evolving tech world!
             </li>
           </ul>
         </div>
