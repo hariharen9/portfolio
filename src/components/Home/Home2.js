@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar_new.png";
+import myImg from "../../Assets/small circle dp2.png";
 import {
   AiFillGithub,
   AiOutlineTwitter,

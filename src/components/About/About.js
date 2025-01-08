@@ -51,6 +51,11 @@ function About() {
         <Row className="resume">
           <Col md={6} className="resume-left">
             <AboutContent
+              title="AWS - Cloud Practitioner"
+              date="December 2024"
+              content={["AWS"]}
+            />
+            <AboutContent
               title="IBM - Cloud Advocate V2"
               date="November 2023"
               content={["IBM Cloud"]}
@@ -69,11 +74,6 @@ function About() {
               title="AWS Fundamentals"
               date="March 2021"
               content={["Amazon"]}
-            />
-            <AboutContent
-              title="Self Taught Programmer"
-              date="September 2020"
-              content={["Udemy"]}
             />
           </Col>
           <Col md={6} className="resume-right">
