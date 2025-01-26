@@ -42,7 +42,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath="https://play-lh.googleusercontent.com/kLxvPxrqHaFL9lljlV0mbzI3-QqK6F2VHi11LoYPJR7zvC0K3VJ7605b61xx2kWzbog=s180-rw"
+              imgPath="https://raw.githubusercontent.com/hariharen9/angst/refs/heads/master/android/app/src/main/icon-playstore.png"
               isBlog={false}
               title="Angst"
               description="Angst is your guide to reduce your mind-wandering and to feel less anxious. Our handpicked collection of ASMRs, Podcasts, Reading, Exercises, Quizzes, and Videos would help you feel less anxious and would definitely accompany you the next time when you have an anxiety attack."
@@ -63,7 +63,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath="https://i.imgur.com/a8eTprC.png"
+              imgPath="https://media.macphun.com/img/uploads/customer/blog/1691416474/169141676764d0f8bfd123b6.17928475.jpg?q=85&w=1680"
               isBlog={false}
               title="FOG BLOGG - Blog with ease"
               description="    

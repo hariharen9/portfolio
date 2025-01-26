@@ -271,7 +271,23 @@ html {
   padding-top: 30px !important;
 }
 
+.resume-link {
+  display: inline-block;
+  color: #00aeef !important;
+  text-decoration: none;
+  margin-top: 10px;
+  font-weight: 500;
+  border: 1px solid #00aeef;
+  padding: 5px 15px;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
 
+.resume-link:hover {
+  background-color: #00aeef;
+  color: white !important;
+  text-decoration: none;
+}
 
 
 /* Image tilt */

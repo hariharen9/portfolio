@@ -15,8 +15,7 @@ function Resume() {
           <Button
             variant="primary"
             href="https://drive.google.com/file/d/1emagYjcTNNaGeL23jY2i1icrTJSoKxGr/view?usp=sharing"
-            target="_blank"
-          >
+            target="_blank">
             <AiOutlineDownload />
             &nbsp;Download Resume&nbsp;
           </Button>
@@ -38,8 +37,7 @@ function Resume() {
           <Col
             md={6}
             className="resume-left"
-            style={{ borderRight: "3px solid rgb(0, 174, 239)" }}
-          >
+            style={{ borderRight: "3px solid rgb(0, 174, 239)" }}>
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
               title="Tata Consultancy Services"
@@ -80,18 +78,19 @@ function Resume() {
               ]}
             />
             <Resumecontent
-              title="TROUVAILLE INC."
-              date="March 2020 - June 2022"
+              title="Halcyon"
+              date="March 2020 - Current"
               content={[
                 {
-                  title: "CO-FOUNDER",
+                  title: "FOUNDER",
                   content: [
-                    "Co-founded a startup which focuses on designing and developing Websites and Mobile applications.",
+                    "Founded a startup which focuses on designing and developing Websites and Mobile applications.",
                     "Created and published two mobile applications to the playstore",
                     "Designed and developed multiple websites for customers and institutions",
                   ],
                 },
               ]}
+              link="https://halcyon.netlify.app/"
             />
           </Col>
 
@@ -150,8 +149,7 @@ function Resume() {
             href={
               "https://drive.google.com/file/d/1emagYjcTNNaGeL23jY2i1icrTJSoKxGr/view?usp=sharing"
             }
-            target="_blank"
-          >
+            target="_blank">
             <AiOutlineDownload />
             &nbsp;Download Resume
           </Button>
