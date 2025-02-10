@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+
+.custom-btn {
+  background-color: #007bff;  /* Bootstrap Primary Color */
+  border: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.custom-btn:hover {
+  background-color: #0056b3; /* Darker Blue on Hover */
+  transform: scale(1.05); /* Slight scale-up effect */
+}
+
+
+.project-card-view img {
+  opacity: 1 !important;   /* Forces full opacity */
+}

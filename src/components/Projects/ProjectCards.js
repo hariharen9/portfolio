@@ -12,12 +12,32 @@ function ProjectCards(props) {
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>
-        <Button variant="primary" href={props.link} target="_blank">
+
+        {/* View Project Button */}
+        <Button
+          variant="primary"
+          href={props.link}
+          target="_blank"
+          className="custom-btn">
           <BiLinkExternal /> &nbsp;
           {props.isBlog ? "View Blog" : "View Project"}
         </Button>
+
+        {/* Visit Website Button - Below */}
+        {props.website && (
+          <div className="mt-2">
+            <Button
+              variant="primary"
+              href={props.website}
+              target="_blank"
+              className="custom-btn">
+              <BiLinkExternal /> &nbsp; Visit Website
+            </Button>
+          </div>
+        )}
       </Card.Body>
     </Card>
   );
 }
+
 export default ProjectCards;

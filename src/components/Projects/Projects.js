@@ -17,6 +17,19 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath="https://raw.githubusercontent.com/hariharen9/localseek/main/media/LOCALSEEK.png"
+              isBlog={false}
+              title="LocalSeek - AI Chat in VSCode"
+              description="
+      LocalSeek is a privacy-first AI chat extension for Visual Studio Code that works 100% locally, with zero cloud dependencies. It features a stunning UI powered by Webview API, Markdown support, and seamless integration with Ollama-compatible models like DeepSeek R1, Mistral, and Llama 3. Experience instant, offline AI interactions with no external API calls.
+    "
+              link="https://github.com/hariharen9/localseek"
+              website="https://localseek.vercel.app"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath="https://assets.intersystems.com/26/bd/6a6aa762425f87ad7d5c2fe65f8c/awslogo-image.jpg"
               isBlog={false}
               title="CI/CD with AWS"
@@ -25,7 +38,8 @@ function Projects() {
               Built my personal portfolio website with ReactJS and hosted it in AWS using a CI/CD Pipeline.
               Also hosted it on netlify with a custom domain address.
               Used S3 bucket to serve the webpage. Codepipeline and Codebuild was used for the pipeline connected to Github. So anytime a commit is made to the repository, The code build will trigger with the help of webhooks, store the build files in the S3 bucket and then it will trigger the pipeline and deploy the website automatically."
-              link="http://mypersonalportfolio-cicd.s3-website.ap-south-1.amazonaws.com/"
+              link="https://github.com/hariharen9/portfolio"
+              website="http://mypersonalportfolio-cicd.s3-website.ap-south-1.amazonaws.com/"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -69,7 +83,8 @@ function Projects() {
               description="    
               
                This is a Full-Stack Web Application is built using NEXTJS as frontend, NODEJS as server / Backend & FIREBASE for the database. This has AUTHENTICATION features like Sign-In with GOOGLE or Sign-in Anonymously. Users can Login, Write blogs and see /react to others blogs. Everything is PUBLIC and in chronological order so it is transparent just like a BLOCKCHAIN 😉"
-              link="https://foggy.vercel.app"
+              website="https://foggy.vercel.app"
+              link="https://github.com/hariharen9/fog-blog"
             />
           </Col>
           <Col md={4} className="project-card">
