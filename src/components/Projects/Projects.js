@@ -27,6 +27,26 @@ function Projects() {
               website="https://localseek.vercel.app"
             />
           </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath="https://grapheneinnovestments.com/Pictures/logo-dark.png"
+              isBlog={false}
+              title="Graphene Innovestments - Engineering Solutions Provider"
+              description="A modern, responsive website built for Graphene Innovestments, an engineering solutions provider. Features include dark/light theme toggle, smooth animations, mobile-responsive design, and interactive UI elements. Built with HTML5, CSS3, and JavaScript with a focus on performance and user experience."
+              website="https://grapheneinnovestments.com"
+              link="https://github.com/hariharen9/graphene-innovestments"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath="https://raw.githubusercontent.com/hariharen9/splitease/refs/heads/main/public/og-image.png"
+              isBlog={false}
+              title="SplitEase - Bill Splitting Made Easy"
+              description="A modern bill splitting application built with React, TypeScript, and Radix UI. Features a clean, accessible interface for managing group expenses, real-time calculations, and an intuitive dialog system for adding and managing splits. Uses SWC for faster development builds and includes component tagging for improved debugging."
+              link="https://github.com/hariharen9/splitease"
+              website="https://spliteaseit.netlify.app"
+            />
+          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
